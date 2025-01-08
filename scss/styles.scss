@@ -1,0 +1,133 @@
+.xl-text {
+    font-size: 75px;
+}
+
+.navbar {
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+    background: #fff;
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.btn-outline-secondary {
+    color: var(--bs-secondary) !important;
+    border: 1px solid var(--bs-secondary) !important;
+
+    &:hover {
+        color: #fff !important;
+    }
+}
+
+.header .decoration-star {
+    top: 80px;
+    left: -200px;
+    width: 500px;
+    opacity: 0.7;
+}
+
+.details .decoration-star {
+    left: -200px;
+    width: 500px;
+}
+
+.details-2 .decoration-star {
+    right: -200px;
+    width: 500px;
+}
+
+.header .decoration-star-2 {
+    top: 80px;
+    right: -200px;
+    width: 500px;
+    opacity: 0.7;
+}
+
+.contact .decoration-star {
+    left: -300px;
+    width: 600px;
+}
+
+.to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 52px;
+    height: 52px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    opacity: 0;
+    background-color: #44434a;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        background-color: #121221;
+    }
+}
+
+.to-top-btn {
+    img {
+        margin-bottom: 0.25rem;
+        width: 18px;
+    }
+}
+
+.show {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .contact {
+        margin-top: 50px !important;
+    }
+
+    .footer .d-flex {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .xl-text {
+        font-size: 50px;
+    }
+
+    .btn-outline-secondary {
+        margin-top: 20px;
+    }
+
+    .header {
+        margin-top: 0px!important;
+        text-align: center;
+    }
+
+    .header .decoration-star {
+        left: -100px;
+        width: 250px;
+    }
+    
+    .header .decoration-star-2 {
+        right: -100px;
+        width: 250px;
+    }
+
+    .header .image-container {
+        margin-top: 30px;
+    }
+    
+    .services .col-md-4 {
+        border-bottom: 1px solid #CCC;
+        margin: 10px 0;
+    }
+
+    .details-2 {
+        margin-top: 35px !important;
+    }
+
+    .footer .fa-brands {
+        font-size: 38px !important;
+    }
+}
